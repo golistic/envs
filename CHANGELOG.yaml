@@ -1,0 +1,14 @@
+xgo:
+  - meta:
+      projectURL: https://github.com/golistic/envs
+      description: |
+        The Go envs package offers functionality to read environment variables from the OS or dot-env files.
+        
+        All notable changes to this project will be documented in this file.
+
+        We follow the conventionalcommits.org specification.
+
+        Change entries with prefix `(!)` warn for a "breaking change".
+  - versions:
+      - version: v1.0
+        date: 2023-08-26
