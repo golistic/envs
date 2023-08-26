@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/geertjanvdk/xkit/xt"
+	"github.com/golistic/xgo/xt"
 )
 
 func TestPythonDotEnv(t *testing.T) {

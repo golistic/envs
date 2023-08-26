@@ -6,7 +6,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/geertjanvdk/xkit/xt"
+	"github.com/golistic/xgo/xt"
 )
 
 // TestDotEnvParse executes common tests for all kinds of .env files.

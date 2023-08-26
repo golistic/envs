@@ -3,7 +3,7 @@ package envs
 import (
 	"os"
 
-	"github.com/geertjanvdk/xkit/xutil"
+	"github.com/golistic/xgo/xstrings"
 )
 
 type envVarMap map[string]*string
@@ -20,7 +20,7 @@ func OSEnviron(dest any) error {
 	for _, s := range os.Environ() {
 		for i := 0; i < len(s); i++ {
 			if s[i] == '=' {
-				src[s[0:i]] = xutil.StringPtr(s[i+1:])
+				src[s[0:i]] = xstrings.Pointer(s[i+1:])
 				break
 			}
 		}

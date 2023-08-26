@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/geertjanvdk/xkit/xt"
+	"github.com/golistic/xgo/xt"
 )
 
 func TestOSEnviron(t *testing.T) {
